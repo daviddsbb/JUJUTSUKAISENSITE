@@ -1,0 +1,104 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding-top: 60px;
+    background-image: url(gojoimagens/1133948.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+ }
+
+ body > li {
+    color: #555;
+ }
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    z-index: 1000;
+}
+
+.navbar img {
+    height: 40px;
+}
+
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #ddd;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.header h1 {
+    margin: 20px 0;
+    color: #333;
+    font-size: 3.5em;
+}
+
+.profile {
+    width: 200px;
+    border-radius: 10px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+section p, section ul {
+    text-align: justify;
+    color: #555;
+}
+
+.habilidadesgj > h1 {
+    display: flex;
+    font-size: 3.5em;
+    justify-content: center;
+    color: #333;
+}
+
+.habilidadesgj {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.habilidadesgj ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+ 
